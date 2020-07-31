@@ -1,0 +1,22 @@
+[
+  {
+    "id": 838473209,
+    "name": "Организация",
+    "coordinates": {
+      "x": 1.0,
+      "y": 2.0
+    },
+    "creationDate": "2020-05-26T03:04:20.625831",
+    "annualTurnover": 3000.0,
+    "type": "PUBLIC",
+    "officialAddress": {
+      "street": "Северный проспект",
+      "zipCode": "1234567",
+      "town": {
+        "x": 1.0,
+        "y": 2.0,
+        "name": "Санкт-Петербург"
+      }
+    }
+  }
+]

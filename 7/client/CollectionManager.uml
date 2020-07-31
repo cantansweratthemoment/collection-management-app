@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>laba_7.Utils.CollectionManager</OriginalElement>
+  <nodes>
+    <node x="1415.0" y="213.0">laba_7.Utils.CollectionUtils</node>
+    <node x="1794.0" y="213.0">laba_7.Client.Communicator</node>
+    <node x="624.0" y="287.0">laba_7.Utils.Creator</node>
+    <node x="727.0" y="139.0">laba_7.Commands.SpecificCommands.RemoveById</node>
+    <node x="1216.0" y="213.0">laba_7.Classes.OrganizationType</node>
+    <node x="633.0" y="139.0">laba_7.Commands.SpecificCommands.Info</node>
+    <node x="1966.0" y="139.0">laba_7.Commands.SpecificCommands.FilterStartsWithName</node>
+    <node x="518.0" y="213.0">laba_7.Commands.SerializedCommands.SerializedSimplyCommand</node>
+    <node x="166.0" y="287.0">laba_7.Utils.IDGenerator</node>
+    <node x="763.0" y="287.0">laba_7.Classes.Address</node>
+    <node x="332.0" y="287.0">laba_7.Classes.Location</node>
+    <node x="1313.0" y="287.0">laba_7.Main</node>
+    <node x="1075.0" y="139.0">laba_7.Commands.SpecificCommands.RemoveHead</node>
+    <node x="902.0" y="287.0">laba_7.Utils.Readers</node>
+    <node x="1617.0" y="139.0">laba_7.Commands.SpecificCommands.Login</node>
+    <node x="1010.0" y="213.0">laba_7.Utils.CollectionManager</node>
+    <node x="1180.0" y="287.0">laba_7.Client.Sender</node>
+    <node x="911.0" y="0.0">laba_7.Commands.Command</node>
+    <node x="1718.0" y="139.0">laba_7.Commands.SpecificCommands.ExecuteScript</node>
+    <node x="1967.0" y="213.0">laba_7.Classes.Organization</node>
+    <node x="229.0" y="139.0">laba_7.Commands.SpecificCommands.Exit</node>
+    <node x="861.0" y="139.0">laba_7.Commands.SpecificCommands.FilterByAnnualTurnover</node>
+    <node x="0.0" y="213.0">laba_7.Commands.SerializedCommands.SerializedArgumentCommand</node>
+    <node x="1872.0" y="139.0">laba_7.Commands.SpecificCommands.Help</node>
+    <node x="764.0" y="213.0">laba_7.Commands.SerializedCommands.SerializedObjectCommand</node>
+    <node x="1323.0" y="139.0">laba_7.Commands.SpecificCommands.PrintFieldDescendingAnnualTurnover</node>
+    <node x="1209.0" y="139.0">laba_7.Commands.SpecificCommands.History</node>
+    <node x="411.0" y="139.0">laba_7.Commands.SpecificCommands.AddIfMin</node>
+    <node x="1608.0" y="213.0">laba_7.Client.ConsoleManager</node>
+    <node x="532.0" y="139.0">laba_7.Commands.SpecificCommands.Clear</node>
+    <node x="121.0" y="139.0">laba_7.Commands.SpecificCommands.Update</node>
+    <node x="2167.0" y="139.0">laba_7.Commands.SpecificCommands.Show</node>
+    <node x="259.0" y="213.0">laba_7.Commands.SerializedCommands.SerializedCombinedCommand</node>
+    <node x="323.0" y="139.0">laba_7.Commands.SpecificCommands.Add</node>
+    <node x="478.0" y="287.0">laba_7.Client.Receiver</node>
+    <node x="0.0" y="139.0">laba_7.Commands.SpecificCommands.Register</node>
+    <node x="0.0" y="287.0">laba_7.Classes.Coordinates</node>
+    <node x="1041.0" y="287.0">laba_7.Client.Invoker</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="laba_7.Commands.SpecificCommands.Show" target="laba_7.Commands.Command">
+      <point x="0.0" y="-14.5" />
+      <point x="2204.0" y="49.0" />
+      <point x="1002.2352941176471" y="49.0" />
+      <point x="44.23529411764707" y="14.5" />
+    </edge>
+    <edge source="laba_7.Commands.SpecificCommands.Clear" target="laba_7.Commands.Command">
+      <point x="0.0" y="-14.5" />
+      <point x="572.5" y="99.0" />
+      <point x="941.4117647058823" y="99.0" />
+      <point x="-16.588235294117645" y="14.5" />
+    </edge>
+    <edge source="laba_7.Commands.SpecificCommands.Exit" target="laba_7.Commands.Command">
+      <point x="0.0" y="-14.5" />
+      <point x="266.0" y="69.0" />
+      <point x="924.8235294117648" y="69.0" />
+      <point x="-33.17647058823529" y="14.5" />
+    </edge>
+    <edge source="laba_7.Commands.SpecificCommands.AddIfMin" target="laba_7.Commands.Command">
+      <point x="0.0" y="-14.5" />
+      <point x="461.5" y="89.0" />
+      <point x="935.8823529411765" y="89.0" />
+      <point x="-22.11764705882353" y="14.5" />
+    </edge>
+    <edge source="laba_7.Commands.SpecificCommands.Help" target="laba_7.Commands.Command">
+      <point x="0.0" y="-14.5" />
+      <point x="1909.0" y="69.0" />
+      <point x="991.1764705882354" y="69.0" />
+      <point x="33.176470588235304" y="14.5" />
+    </edge>
+    <edge source="laba_7.Commands.SpecificCommands.RemoveHead" target="laba_7.Commands.Command">
+      <point x="0.0" y="-14.5" />
+      <point x="1132.0" y="119.0" />
+      <point x="963.5294117647059" y="119.0" />
+      <point x="5.529411764705891" y="14.5" />
+    </edge>
+    <edge source="laba_7.Commands.SpecificCommands.RemoveById" target="laba_7.Commands.Command">
+      <point x="0.0" y="-14.5" />
+      <point x="784.0" y="119.0" />
+      <point x="952.4705882352941" y="119.0" />
+      <point x="-5.529411764705877" y="14.5" />
+    </edge>
+    <edge source="laba_7.Commands.SpecificCommands.Update" target="laba_7.Commands.Command">
+      <point x="0.0" y="-14.5" />
+      <point x="165.0" y="59.0" />
+      <point x="919.2941176470588" y="59.0" />
+      <point x="-38.705882352941174" y="14.5" />
+    </edge>
+    <edge source="laba_7.Commands.SpecificCommands.ExecuteScript" target="laba_7.Commands.Command">
+      <point x="0.0" y="-14.5" />
+      <point x="1785.0" y="79.0" />
+      <point x="985.6470588235294" y="79.0" />
+      <point x="27.64705882352942" y="14.5" />
+    </edge>
+    <edge source="laba_7.Commands.SpecificCommands.Register" target="laba_7.Commands.Command">
+      <point x="0.0" y="-14.5" />
+      <point x="50.5" y="49.0" />
+      <point x="913.7647058823529" y="49.0" />
+      <point x="-44.23529411764706" y="14.5" />
+    </edge>
+    <edge source="laba_7.Commands.SpecificCommands.FilterByAnnualTurnover" target="laba_7.Commands.Command">
+      <point x="0.0" y="-14.5" />
+      <point x="7.105427357601002E-15" y="14.5" />
+    </edge>
+    <edge source="laba_7.Commands.SpecificCommands.Add" target="laba_7.Commands.Command">
+      <point x="0.0" y="-14.5" />
+      <point x="357.0" y="79.0" />
+      <point x="930.3529411764706" y="79.0" />
+      <point x="-27.647058823529413" y="14.5" />
+    </edge>
+    <edge source="laba_7.Commands.SpecificCommands.Info" target="laba_7.Commands.Command">
+      <point x="0.0" y="-14.5" />
+      <point x="670.0" y="109.0" />
+      <point x="946.9411764705883" y="109.0" />
+      <point x="-11.058823529411761" y="14.5" />
+    </edge>
+    <edge source="laba_7.Commands.SpecificCommands.FilterStartsWithName" target="laba_7.Commands.Command">
+      <point x="0.0" y="-14.5" />
+      <point x="2056.5" y="59.0" />
+      <point x="996.7058823529412" y="59.0" />
+      <point x="38.70588235294119" y="14.5" />
+    </edge>
+    <edge source="laba_7.Commands.SpecificCommands.Login" target="laba_7.Commands.Command">
+      <point x="0.0" y="-14.5" />
+      <point x="1657.5" y="89.0" />
+      <point x="980.1176470588235" y="89.0" />
+      <point x="22.117647058823536" y="14.5" />
+    </edge>
+    <edge source="laba_7.Commands.SpecificCommands.PrintFieldDescendingAnnualTurnover" target="laba_7.Commands.Command">
+      <point x="0.0" y="-14.5" />
+      <point x="1460.0" y="99.0" />
+      <point x="974.5882352941177" y="99.0" />
+      <point x="16.58823529411766" y="14.5" />
+    </edge>
+    <edge source="laba_7.Commands.SpecificCommands.History" target="laba_7.Commands.Command">
+      <point x="0.0" y="-14.5" />
+      <point x="1256.0" y="109.0" />
+      <point x="969.0588235294117" y="109.0" />
+      <point x="11.058823529411775" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4502432551968156" x="1120.5" y="158.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

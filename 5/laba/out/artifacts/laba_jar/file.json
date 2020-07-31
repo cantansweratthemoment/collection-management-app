@@ -1,0 +1,22 @@
+[
+  {
+    "id": 412762092,
+    "name": "Организация",
+    "coordinates": {
+      "x": 1.0,
+      "y": 2.0
+    },
+    "creationDate": "2020-05-07T03:20:42.103361",
+    "annualTurnover": 3.0,
+    "type": "TRUST",
+    "officialAddress": {
+      "street": "Северный проспект",
+      "zipCode": "195267",
+      "town": {
+        "x": 3.0,
+        "y": 4.0,
+        "name": "Москва"
+      }
+    }
+  }
+]
