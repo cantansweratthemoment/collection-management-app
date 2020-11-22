@@ -3,6 +3,7 @@
 ![прикольчик](pictures/1.png)
 
 This repository is a collection of the first course Software Engineering homeworks (ITMO University). You can check detailed tasks below🙂
+Initially, it was a console client-server app (then console client was replaced with GUI), which implements management of objects collection in interactive mode. Collection and users info are kept in database. The application supports the execution of a number of commands (for example, «help», «add{element}», «clear», «save» etc.). 
 ## Tasks
 ### 5
 ![task 5](pictures/3.png)
